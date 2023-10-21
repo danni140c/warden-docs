@@ -14,6 +14,10 @@
 | SSH User                       | `user`                                                           |
 | SSH private key file           | `~/.warden/tunnel/ssh_key`                                       |
 
+:::{note}
+Since version 0.14.0 of Warden, Docker Compose V2 is required. This means container names use dashes instead of underscores. E.g. containers are now named `rock-db-1` instead of `rock_db_1`. Some images below still show the the naming convention of Docker Compose V1.
+:::
+
 ## TablePlus
 ![TablePlus Connection Info](screenshots/tableplus-connection.png)
 
